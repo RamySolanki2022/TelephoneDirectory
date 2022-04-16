@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+h1::before{
+    content: '\260E'
+}
+
+div{
+    color: white;
+    position: sticky;
+    background-color: black;
+    margin: 2px;
+    padding-left: 15px;
+    position: sticky;
+    top: 10px;
+    left: 5vw;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+li{
+    border: 1px solid silver;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 5px ;
+    width: 25vw;
+    margin-bottom: 20px;
+
+}
+
+li::before{
+    content: '\260E'
+}
+ul li{
+    color: white;
+}
+
+.phone{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+section{
+    width: 30vw;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+body{
+    text-align: center;
+}
+
+#fixed{
+    position: relative;
+    left: 35%;
+    top: 10px;
+    bottom: 10px;
+}
